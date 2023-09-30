@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Clon de Nexflix</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="/img/Dark Blue And White Minimalist Modern Technology Logo (3).png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="login_body">
+        <div class="login_box">
+            <h2>Ingreso a Funco DC</h2>
+            <form action="/php/loginDc.php" method="post">
+                <div class="input_box">
+                    <input  type="text" name="usuario" value="" placeholder="Ingrese su nombre de Usuario">
+                </div>
+
+                <div class="input_box">
+                    <input type="password" name="pass" value="">
+                </div>
+
+                <div>
+                    <button class="submit">
+                        <!-- <a style="color: aliceblue; text-decoration: none;" href="/index.html">Entrar</a> -->
+                         <input type="submit" name="" value="Ingresar" style="color: aliceblue; text-decoration: none;" >
+                    </button>
+                </div>
+            </form>
+
+            <div class="support">
+                <div class="remember">
+                    <span><input type="checkbox" style="margin: 0;padding: 0; height: 13px;"></span>
+                    <span>Guardar contraseña </span>
+                </div>
+                <div class="help">
+                    <a href="#">
+                        Necesita ayuda ?
+                    </a>
+                </div>
+            </div>
+
+            <div class="login_footer">
+                <div class="login_facebook">
+                    <span><img height="20px" src="/img/Facebook_logo.png" alt="facebook"></span>
+                    <span><a href="#">Conectar con Facebook</a></span>
+                </div>
+
+                <div class="sign_up">
+                    <p>Usted es nuevo aqui ? <a href="#">Registrese ahora</a></p>
+                </div>
+
+                <div class="terms">
+                    <p>Esta página está protegida por Google reCAPTCHA para garantizar que no sea un robot. <a href="#">Mas informacion</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
